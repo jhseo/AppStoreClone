@@ -13,5 +13,8 @@ import ProjectDescriptionHelpers
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let workspace = Workspace(
     name: .productName,
-    projects: Projects.allCases.map { $0.path }
+    projects: [
+        "Projects/AppStoreClone",
+        "Projects/AppStoreCloneToday"
+    ]
 )

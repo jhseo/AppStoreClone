@@ -1,8 +1,10 @@
 import ProjectDescription
 import ProjectDescriptionHelpers
 
+let projectName = "AppStoreClone"
+
 let project = Project(
-    name: Projects.appStoreClone.name,
+    name: projectName,
     organizationName: .organizationName,
     settings: Settings.settings(
         base: [
@@ -20,7 +22,7 @@ let project = Project(
         ]
     ),
     targets: Project.appTargets(
-        name: Projects.appStoreClone.name,
+        name: projectName,
         appDependencies: [],
         testDependencies: []
     )

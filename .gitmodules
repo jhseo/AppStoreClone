@@ -1,3 +1,6 @@
 [submodule "Tuist"]
 	path = Tuist
 	url = https://github.com/jhseo/AppStoreCloneTuist.git
+[submodule "AppStoreCloneToday"]
+	path = Projects/AppStoreCloneToday
+	url = https://github.com/jhseo/AppStoreCloneToday.git
