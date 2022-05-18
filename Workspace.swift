@@ -14,7 +14,7 @@ import ProjectDescriptionHelpers
 let workspace = Workspace(
     name: .productName,
     projects: [
-        "Projects/AppStoreClone",
+        "Projects/AppStoreCloneMain",
         "Projects/AppStoreCloneToday"
     ]
 )
