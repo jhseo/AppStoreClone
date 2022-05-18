@@ -11,11 +11,11 @@ let project = Project(
         configurations: [
             .debug(
                 name: "Dev",
-                xcconfig: .relativeToRoot("Configurations/Projects/Project.xcconfig")
+                xcconfig: "Configurations/Project.xcconfig"
             ),
             .release(
                 name: "Release",
-                xcconfig: .relativeToRoot("Configurations/Projects/Project.xcconfig")
+                xcconfig: "Configurations/Project.xcconfig"
             )
         ]
     ),
